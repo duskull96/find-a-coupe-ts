@@ -1,0 +1,24 @@
+.container {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .desk {
+        height: 100%;
+        width: 1410px;
+        border: 1px solid #FFD8CC;
+        padding: 10px;
+        box-sizing: border-box;
+        display: flex;
+        flex-flow: row wrap;
+        align-content: center;
+        justify-content: center;
+        background-color: #FFBD9B;
+        border-radius: 20px;
+        box-shadow: inset 0px 0px 20px 0px #FFD8CC;
+        user-select: none;
+    }
+
+}
